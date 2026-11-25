@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_set_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp"
+    android:layout_marginVertical="3dp"
+    android:background="@drawable/bg_set_item"
+    android:gravity="center_vertical">
+
+    <!-- Set Number Badge -->
+    <TextView
+        android:id="@+id/tv_set_number"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/color_text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <!-- Weight Input -->
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="6dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        android:hint="80"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/color_text_secondary"
+        android:textSize="14sp" />
+
+    <!-- Reps Input -->
+    <EditText
+        android:id="@+id/et_reps"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="6dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        android:hint="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/color_text_secondary"
+        android:textSize="14sp" />
+
+    <!-- Check Button -->
+    <ImageButton
+        android:id="@+id/btn_complete_set"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_chip"
+        android:src="@drawable/ic_check"
+        app:tint="@color/color_text_secondary"
+        android:contentDescription="Complete Set" />
+
+</LinearLayout>

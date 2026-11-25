@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IronFit</string>
+    <string name="app_tagline">Build Your Body. Track Your Progress.</string>
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_exercises">Exercises</string>
+    <string name="nav_workout">Workout</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+    <!-- Onboarding -->
+    <string name="onboarding_title">Build Your Profile</string>
+    <string name="label_name">Your Name</string>
+    <string name="label_age">Age</string>
+    <string name="label_height">Height (cm)</string>
+    <string name="label_weight">Weight (kg)</string>
+    <string name="label_experience">Experience Level</string>
+    <string name="label_goal">Main Goal</string>
+    <string name="btn_get_started">GET STARTED</string>
+    <!-- Home -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="todays_workout">Today\'s Workout</string>
+    <string name="start_workout">START WORKOUT</string>
+    <string name="weekly_activity">Weekly Activity</string>
+    <!-- Exercises -->
+    <string name="exercise_library">Exercise Library</string>
+    <string name="search_exercises">Search exercises…</string>
+    <string name="all_muscles">All</string>
+    <!-- Workout -->
+    <string name="active_workout">Active Workout</string>
+    <string name="finish_workout">FINISH WORKOUT</string>
+    <string name="rest_timer">Rest Timer</string>
+    <!-- Progress -->
+    <string name="progress_title">Your Progress</string>
+    <string name="log_weight">Log Weight</string>
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="reset_data">Reset All Data</string>
+    <!-- General -->
+    <string name="sets">Sets</string>
+    <string name="reps">Reps</string>
+    <string name="weight_kg">kg</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="muscle_gain">Muscle Gain</string>
+    <string name="fat_loss">Fat Loss</string>
+    <string name="strength">Strength</string>
+    <string name="general_fitness">General Fitness</string>
+    <string name="workouts_completed">Workouts Completed</string>
+    <string name="current_weight">Current Weight</string>
+    <string name="personal_records">Personal Records</string>
+    <string name="no_workouts_yet">No workouts yet. Start your first session!</string>
+    <string name="no_exercises_found">No exercises found</string>
+    <string name="add_to_workout">ADD TO WORKOUT</string>
+    <string name="instructions">Instructions</string>
+    <string name="target_muscles">Target Muscles</string>
+    <string name="secondary_muscles">Secondary Muscles</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="recommended_sets">Recommended Sets</string>
+    <string name="recommended_reps">Recommended Reps</string>
+    <string name="rest_time">Rest Time</string>
+    <string name="seconds">seconds</string>
+    <string name="complete_set">Complete Set</string>
+    <string name="workout_duration">Duration</string>
+</resources>

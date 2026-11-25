@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101010">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Exercise Library"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Search Bar -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_search"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Search exercises..."
+        app:boxBackgroundColor="#222222"
+        app:boxStrokeColor="#333333"
+        app:hintTextColor="#A0A0A0"
+        app:startIconDrawable="@drawable/ic_search"
+        app:startIconTint="#A0A0A0"
+        app:boxCornerRadiusTopStart="24dp"
+        app:boxCornerRadiusTopEnd="24dp"
+        app:boxCornerRadiusBottomStart="24dp"
+        app:boxCornerRadiusBottomEnd="24dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Category Filter Chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:id="@+id/ll_filter_chips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="All" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:layout_marginEnd="8dp" android:background="@drawable/bg_chip_selected"
+                android:id="@+id/filter_all" />
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="Chest" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:layout_marginEnd="8dp" android:background="@drawable/bg_chip"
+                android:id="@+id/filter_chest" />
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="Back" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:layout_marginEnd="8dp" android:background="@drawable/bg_chip"
+                android:id="@+id/filter_back" />
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="Shoulders" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:layout_marginEnd="8dp" android:background="@drawable/bg_chip"
+                android:id="@+id/filter_shoulders" />
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="Legs" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:layout_marginEnd="8dp" android:background="@drawable/bg_chip"
+                android:id="@+id/filter_legs" />
+            <TextView android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="Arms" android:textColor="#FFFFFF" android:textSize="13sp"
+                android:gravity="center" android:paddingHorizontal="16dp"
+                android:background="@drawable/bg_chip"
+                android:id="@+id/filter_arms" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Exercises RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:layoutAnimation="@anim/layout_anim_fall_down" />
+
+</LinearLayout>

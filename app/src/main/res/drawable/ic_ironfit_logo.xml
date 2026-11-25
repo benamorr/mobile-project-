@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer Hexagonal Emblem Shield -->
+    <path
+        android:fillColor="#18181C"
+        android:strokeColor="#2F313B"
+        android:strokeWidth="2.5"
+        android:pathData="M60,6 L108,30 L108,90 L60,114 L12,90 L12,30 Z"/>
+
+    <!-- Subtle Red Glow Inset Border -->
+    <path
+        android:strokeColor="#44E53935"
+        android:strokeWidth="2"
+        android:pathData="M60,14 L100,34 L100,86 L60,106 L20,86 L20,34 Z"/>
+
+    <!-- Left Barbell Hex Plate -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M28,42 L42,34 L42,86 L28,78 Z"/>
+
+    <!-- Left Inner Weight Plate -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M32,45 L38,41 L38,79 L32,75 Z"/>
+
+    <!-- Right Barbell Hex Plate -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M92,42 L78,34 L78,86 L92,78 Z"/>
+
+    <!-- Right Inner Weight Plate -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M88,45 L82,41 L82,79 L88,75 Z"/>
+
+    <!-- Heavy Center Steel Barbell Shaft -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,56 L82,56 L82,64 L38,64 Z"/>
+
+    <!-- Central Angular "IF" Crest / Crown (IronFit) -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M60,26 L74,50 L60,45 L46,50 Z"/>
+
+    <!-- Lower Athletic V-Taper Cut -->
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M60,96 L48,70 L60,75 L72,70 Z"/>
+
+    <!-- Center Grip Diamond Highlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,54 L66,60 L60,66 L54,60 Z"/>
+
+</vector>

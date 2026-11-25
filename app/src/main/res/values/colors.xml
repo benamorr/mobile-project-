@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IRONFIT Design System Colors -->
+    <color name="color_background">#FF101010</color>
+    <color name="color_background_secondary">#FF1A1A1A</color>
+    <color name="color_card">#FF222222</color>
+    <color name="color_accent">#FFE53935</color>
+    <color name="color_accent_dark">#FFC62828</color>
+    <color name="color_text_primary">#FFFFFFFF</color>
+    <color name="color_text_secondary">#FFA0A0A0</color>
+    <color name="color_success">#FF4CAF50</color>
+    <color name="color_warning">#FFFFC107</color>
+    <color name="color_divider">#FF2A2A2A</color>
+    <color name="color_surface">#FF1E1E1E</color>
+    <color name="color_on_surface">#FFFFFFFF</color>
+    <color name="color_navbar_bg">#FF161616</color>
+    <color name="color_input_bg">#FF2C2C2C</color>
+    <color name="color_chip_bg">#FF2E2E2E</color>
+    <color name="color_progress_track">#FF333333</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
